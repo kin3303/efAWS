@@ -1,4 +1,4 @@
-# ElectricFlow 데모 프로젝트 2차 추가사항
+# ElectricFlow 데모 프로젝트
 
 - 도커 스웜을 이용한 멀티서버 환경에서의 ElectricFlow 배포
 - AWS 에 Docke Swarm 노드 3개를 생성하여 ElectricFlow 를 배포
