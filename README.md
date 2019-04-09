@@ -9,7 +9,7 @@
 
 ```console
  $ sudo ./installSwarm.sh
- $ cd swarm
+ $ cd AWS
  $ terraform init
  $ terraform apply
  ```
