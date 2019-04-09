@@ -1,6 +1,0 @@
-[masters]
-15.164.49.58 ansible_user=ubuntu ansible_private_key_file=mykey
-[workers]
-13.209.74.157 ansible_user=ubuntu ansible_private_key_file=mykey
-13.209.48.247 ansible_user=ubuntu ansible_private_key_file=mykey
-
