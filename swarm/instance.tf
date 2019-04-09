@@ -16,7 +16,7 @@ resource "aws_instance" "master" {
     destination = "/tmp/${var.BOOTSTRAP_NAME}"
   }
   provisioner "file" {
-    source = "../../${var.EF_INSTALLER_NAME}"
+    source = "../${var.EF_INSTALLER_NAME}"
     destination = "/tmp/${var.EF_INSTALLER_NAME}"
   }
   provisioner "remote-exec" {
