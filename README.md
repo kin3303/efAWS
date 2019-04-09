@@ -21,7 +21,7 @@
   $ sudo docker node ls
  ```  
  
- ## Master Node 에서 Deploy
+ ## Master Node 에서 EF 배포
  
  ```console
   $ export EFLOW_INSTALLER=/tmp/ElectricFlow-x64-9.0.1.136311
