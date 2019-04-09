@@ -17,7 +17,6 @@
  ## Master Node 로 로그인
  
  ```console
-  $ export DOCKER_HOST=$(terraform output swarm_manager_ip)
   $ ssh -i mykey ubuntu@$(terraform output master_public_ip)
   $ sudo docker node ls
  ```  
