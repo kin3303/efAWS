@@ -4,6 +4,7 @@
 - AWS 에 Docke Swarm 노드 3개를 생성
 - 실행 전 AWS Access Key, AWS Secret Key 를 AWS Management Console 를 통해 확인
 - 실행 전 EF 인스톨러를 efswarm 폴더에 저장
+- t2.large 를 이용하여 과금됨을 주의 ( 3개의 인스턴스 이기 때문에 1회 up 시 400원 정도 과금되며 destory 하지 않으면 매시간 400원 과금)
 
 ## Swarm 노드 자동 설치 (AWS) 
 
