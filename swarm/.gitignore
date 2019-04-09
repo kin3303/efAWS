@@ -1,0 +1,14 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Directories
+.terraform/
+.vagrant/
+
+# Backup files
+*.bak
+
+# Ignored Terraform files
+*gitignore*.tf
