@@ -5,7 +5,7 @@ resource "aws_key_pair" "mykey" {
 
 resource "aws_instance" "master" {
   ami           = "${lookup(var.AMIS, var.AWS_REGION)}"
-  instance_type = "t2.large"
+  instance_type = "t2.xlarge"
   key_name = "${aws_key_pair.mykey.key_name}"
   vpc_security_group_ids = [
     "${aws_security_group.sgswarm.id}",
