@@ -24,6 +24,13 @@ usermod -aG docker ${whoami}
 systemctl enable docker
 systemctl start docker
 
+# dcs install
+echo "DCS installing..."
+curl -sL bit.ly/ralf_dcs -o ./dcs
+chmod 755 ./dcs
+mv ./dcs /usr/bin/dcs
+echo "DCS installed..."
+
 echo "Docker-compose installing..."
 #curl -L https://github.com/docker/compose/releases/download/1.16.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 #chmod +x /usr/local/bin/docker-compose
