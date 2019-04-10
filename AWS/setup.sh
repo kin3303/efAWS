@@ -11,6 +11,9 @@ export LC_ALL=C
 apt-get update
 apt-get install python-minimal -y
 
+# install multitail
+apt-get install multitail -y
+
 # install docker
 echo "Docker installing..."
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg |  apt-key add -
