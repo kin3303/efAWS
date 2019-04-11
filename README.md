@@ -30,7 +30,5 @@
   $ cd efdocker
   $ export EFLOW_INSTALLER=/tmp/ElectricFlow-x64-9.0.1.136311 
   $ TAG=latest docker stack deploy -c docker-stack.yml EF
-  $ sudo docker stack ps EF
-  $ sudo docker stack rm EF
  ```
  
