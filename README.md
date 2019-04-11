@@ -28,7 +28,6 @@
   $ sudo su 
   $ git clone https://github.com/kin3303/efdocker
   $ cd efdocker
-  $ export EFLOW_INSTALLER=/tmp/ElectricFlow-x64-9.0.1.136311 
   $ TAG=latest docker stack deploy -c docker-stack.yml EF
  ```
  
